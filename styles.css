@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #app {
+    margin-top: 20px;
+  }
+  
+  #add-item-form {
+    display: flex;
+  }
+  
+  #item-input {
+    flex: 1;
+    padding: 5px;
+  }
+  
+  #item-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .item input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .item.done {
+    text-decoration: line-through;
+    color: #999;
+  }
+  
